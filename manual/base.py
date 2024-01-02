@@ -46,7 +46,7 @@ def mk_command_runner(commands_template, name=None, *, step_by_step=False):
     def execute_commands(*args, **kwargs):
         _dry_run = kwargs.pop('_dry_run', False)
         commands = commands_template.format(
-            **sig.kwargs_from_args_and_kwargs(args, kwargs)
+            **sig.map_arguments(args, kwargs)
         ).split('\n')
         n_commands = len(commands)
         for i, command in enumerate(commands, 1):
