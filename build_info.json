@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "built_at": "2026-11-22T19:58:44Z",
+  "package": {
+    "name": "manual",
+    "version": "0.0.2",
+    "display_name": "manual",
+    "source": "pyproject.toml"
+  },
+  "git": {
+    "available": true,
+    "commit": "47d1d84e07140c8fc0043f3be1f75eeb6cecd16a",
+    "short_commit": "47d1d84",
+    "branch": "master",
+    "tags": [],
+    "dirty": false,
+    "remote_url": "https://github.com/thorwhalen/manual",
+    "commit_url": "https://github.com/thorwhalen/manual/commit/47d1d84e07140c8fc0043f3be1f75eeb6cecd16a",
+    "error": null
+  },
+  "ci": {
+    "provider": "github",
+    "repository": "thorwhalen/manual",
+    "sha": "47d1d84e07140c8fc0043f3be1f75eeb6cecd16a",
+    "sha_in_history": true,
+    "ref": "refs/heads/master",
+    "ref_name": "master",
+    "run_id": "45063618945",
+    "run_url": "https://github.com/thorwhalen/manual/actions/runs/45063618945",
+    "server_url": "https://github.com"
+  },
+  "tools": {
+    "epythet": "0.2.23",
+    "sphinx": "9.1.1",
+    "docutils": "0.22.4",
+    "python": "3.12.16"
+  },
+  "config": {
+    "theme": "auto",
+    "html_theme": "pydata_sphinx_theme",
+    "accent": "#864600",
+    "mode": "auto",
+    "api_generator": "autosummary",
+    "ignore": [
+      "tests/",
+      "scrap/",
+      "examples/"
+    ],
+    "agent_outputs": true,
+    "aggregates": [
+      "md"
+    ],
+    "ai_artifacts": true,
+    "provenance": true,
+    "docs_dir": "docsrc"
+  },
+  "site": {
+    "modules_documented": 3,
+    "objects_documented": 1
+  },
+  "pypi": {
+    "checked": true,
+    "latest": "0.0.2",
+    "relation": "same",
+    "error": null
+  },
+  "reproduce": "git clone https://github.com/thorwhalen/manual && cd manual\ngit checkout 47d1d84e07140c8fc0043f3be1f75eeb6cecd16a\npip install \"epythet==0.2.23\"\nepythet quickstart . --ignore tests/ scrap/ examples/",
+  "warnings": [],
+  "alignment": {
+    "aligned": true,
+    "notes": []
+  }
+}

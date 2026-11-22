@@ -1,0 +1,21 @@
+# manual
+
+> Python interfaces to system calls
+
+
+## Pages
+
+- [manual](index.html.md): Python interfaces to system calls
+- [API reference](api.html.md): | &#96;manual&#96;   | Interfaces for system calls.   |
+- [manual](_autosummary/manual.html.md): Interfaces for system calls.
+- [manual.base](_autosummary/manual.base.html.md): Base objects
+- [manual.util](_autosummary/manual.util.html.md): Util objects
+- [About this build](about-this-build.html.md): This documentation was built on &#42;&#42;2026-11-22 19:58 UTC&#42;&#42; from commit &lt;a href="https://github.com/tho...
+
+## Optional
+
+- [manual.md](manual.md): Complete documentation in a single file.
+
+## Build
+
+- [build_info.json](build_info.json): build provenance (commit, version, tool versions, whether the docs match the package)

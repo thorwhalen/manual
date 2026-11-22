@@ -1,0 +1,14 @@
+# manual
+
+> Python interfaces to system calls
+
+
+## Pages in this subsection
+
+- [manual](manual.html.md): Interfaces for system calls.
+- [manual.base](manual.base.html.md): Base objects
+- [manual.util](manual.util.html.md): Util objects
+
+## Optional
+
+- [Top-level llms.txt](../llms.txt): Complete documentation index.

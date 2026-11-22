@@ -1,0 +1,14 @@
+﻿manual
+======
+
+.. automodule:: manual
+
+   
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   base
+   util

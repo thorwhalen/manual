@@ -1,0 +1,12 @@
+manual.base
+===========
+
+.. automodule:: manual.base
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      mk_command_runner
+   

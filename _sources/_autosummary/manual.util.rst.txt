@@ -1,0 +1,13 @@
+manual.util
+===========
+
+.. automodule:: manual.util
+
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      execute_command
+      field_names_of_format_string
+   
